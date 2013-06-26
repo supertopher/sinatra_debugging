@@ -1,0 +1,22 @@
+<form method="post">
+<input type="text" name="post[title]" />
+<fieldset>
+  AUTHOR1
+<input type="text" name="post[authors][][name]" />
+<input type="text" name="post[authors][][email]" />
+</fieldset>
+<fieldset>
+  AUTHOR2
+<input type="text" name="post[authors][][name]" />
+<input type="text" name="post[authors][][email]" />
+</fieldset>
+
+<fieldset>
+  tags!
+<input type="text" name="post[tags][]" />
+<input type="text" name="post[tags][]" />
+<input type="text" name="post[tags][]" />
+<input type="text" name="post[tags][]" />
+</fieldset>
+<input type="submit" value="make post" />
+</form>
